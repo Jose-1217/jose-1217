@@ -74,10 +74,24 @@ elif age >= 12 and age <59:
 elif age > 60:
     boleta = 9000
 
+else:mascota = input("que mascota tienes: ")
+mascota = mascota.lower()
+
+if mascota == "perro":
+    print("te recomiendo darle hot chaw")
+
+elif mascota == "gato":
+    print("te recomiendo darle concentado")
+
+elif mascota == "coejo":
+    print("te recomiendo darle zanahoria y lechuga")
+
 else:
+    print("mascota no valida")
     print("edad no valida ") 
 
 print("debes pagar",boleta)
+
 
 
 
