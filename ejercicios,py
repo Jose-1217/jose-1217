@@ -108,7 +108,24 @@ else:
     total = 5000 + (horas -1 ) * 3000
 
 #resultado
-print("debe pagar:", total, "pesos")
+print("debe pagar:", total, "pesos")#pedir hora 
+hora = int(input("a que hora llegaste (0 - 23): "))
+
+#condicion 
+if hora >= 6 and hora <= 11:
+    print("mañana")
+
+elif hora >= 12 and hora <= 17:
+    print("tarde")
+
+elif hora >= 18 and hora <= 22:
+    print("noche")
+
+else:
+    print("cerrado")
+
+7
+
 
 
 
