@@ -1,3 +1,4 @@
+1
 #contadores
 vainilla = 0 
 chocolate = 0 
@@ -19,7 +20,7 @@ print("cantidad de vainilla: ",vainilla)
 print("cantidad de chocolate: ",chocolate)
 print("cantidad de fresa: ",fresa)
 
-
+2
 # acceso al gym
 
 edad = int(input("ingresa tu edad: "))
@@ -39,6 +40,7 @@ elif edad > 60:
 else:
     print("edad no valida ")
 
+3
 # compra
 cafe = 4000
 te = 3500
@@ -61,6 +63,7 @@ else :
 
 print("debes pagar:", total)
 
+4
 # entrada al cine
 
 age = int(input("escribe tu edad: "))
@@ -74,6 +77,7 @@ elif age >= 12 and age <59:
 elif age > 60:
     boleta = 9000
 
+5
 else:mascota = input("que mascota tienes: ")
 mascota = mascota.lower()
 
@@ -92,8 +96,19 @@ else:
 
 print("debes pagar",boleta)
 
+6
+#pedir horas al usurio
+horas = int(input("cuantas horas estuvo tu carro en el parqueadero: "))
+
+#calcular el pago
+if horas <= 1:
+    total = 5000
+
+else:
+    total = 5000 + (horas -1 ) * 3000
+
+#resultado
+print("debe pagar:", total, "pesos")
 
 
-
-    
 
